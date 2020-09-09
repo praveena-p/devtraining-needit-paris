@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_calendar_date_time_1" label="Occassion Date" language="en" table="x_58872_needit_occassions">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_calendar_date_time_1</element>
+            <help/>
+            <hint/>
+            <label>Occassion Date</label>
+            <language>en</language>
+            <name>x_58872_needit_occassions</name>
+            <plural>Occassion Dates</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+            <sys_created_on>2020-09-09 02:49:00</sys_created_on>
+            <sys_id>342939872f0f5010dc0ae93df699b683</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Occassion Date</sys_name>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_documentation_x_58872_needit_occassions_u_calendar_date_time_1_en</sys_update_name>
+            <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+            <sys_updated_on>2020-09-09 02:49:00</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

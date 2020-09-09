@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Occassions" max_length="40" name="x_58872_needit_occassions" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Occassion Date" mandatory="true" max_length="40" name="u_calendar_date_time_1" type="calendar_date_time"/>
+        <element attributes="encode_utf8=false" label="Employee" mandatory="true" max_length="32" name="u_reference_5" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Speacial Occasion" mandatory="true" max_length="40" name="u_special_occassion" type="string">
+            <choice>
+                <element inactive_on_update="false" label="aniversary" sequence="0" value="aniversary"/>
+                <element inactive_on_update="false" label="Birthday" sequence="0" value="birthday"/>
+                <element inactive_on_update="false" label="Anniversary" sequence="1" value="anniversary"/>
+                <element inactive_on_update="false" label="work anniversary" sequence="2" value="work anniversary"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_reference_5"/>
+        </index>
+    </element>
+</database>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="u_what_needed" table="x_58872_needit_needit" version="3">
+        <sys_choice_set action="DELETE">
+            <element>u_what_needed</element>
+            <name>x_58872_needit_needit</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_id/>
+            <sys_mod_count/>
+            <sys_name/>
+            <sys_package/>
+            <sys_policy/>
+            <sys_scope/>
+            <sys_update_name/>
+            <sys_updated_by/>
+            <sys_updated_on>2020-09-08 18:20:51</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application/>
+        <file_path/>
+        <instance_id>0f52873edbfac85052dd2f17d49619f8</instance_id>
+        <instance_name>dev100134</instance_name>
+        <name>sys_choice_x_58872_needit_needit_u_what_needed</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_choice action="DELETE" field="u_what_needed" table="x_58872_needit_needit" version="3"><sys_choice_set action="DELETE"><element>u_what_needed</element><name>x_58872_needit_needit</name><sys_class_name>sys_choice_set</sys_class_name><sys_created_by/><sys_created_on/><sys_id/><sys_mod_count/><sys_name/><sys_package/><sys_policy/><sys_scope/><sys_update_name/><sys_updated_by/><sys_updated_on>2020-09-08 18:20:51</sys_updated_on></sys_choice_set></sys_choice></record_update>]]></payload>
+        <payload_hash>712417646</payload_hash>
+        <record_name>NeedIt.What needed</record_name>
+        <reverted_from/>
+        <source>b4b4848f2fc75010dc0ae93df699b67c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-08 18:20:51</sys_created_on>
+        <sys_id>41d48c8f2fc75010dc0ae93df699b60b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1746ef2f7e90000001</sys_recorded_at>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-08 18:20:51</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>c9d48c8f6cc750107026824ee8334b0a</update_guid>
+        <update_guid_history>c9d48c8f6cc750107026824ee8334b0a:712417646,05d48c8fc6c7501030efb485ae245207:-915848390,01d48c8fe2c75010fff3ca74f6f05b04:367156690,0dd48c8fd6c75010119fd944cdfc5a00:-1223568115,38d44c8f00c7501001c80d259d520dfd:1500617887,34d44c8f66c75010b190dde22558b1fa:1827197514,fcd44c8fe2c7501021951c522c9580f6:-2088659708,f6593e7eda075010233848c74afef02f:0,be593e7e59075010636af8ee319bae15:764208715</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-08 18:20:56</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>61d48c8f2fc75010dc0ae93df699b686</sys_id>
+        <sys_metadata>61d48c8f2fc75010dc0ae93df699b686</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_what_needed</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_choice_x_58872_needit_needit_u_what_needed</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_58872_needit_needit_u_what_needed">41d48c8f2fc75010dc0ae93df699b60b</sys_update_version>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-08 18:20:56</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
