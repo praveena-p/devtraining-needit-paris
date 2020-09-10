@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>test_flow</internal_name>
+        <label_cache>[{"name":"37a4537e-dfb3-464c-8298-580bc7491f2c.item.approver.email","label":"2➛Approval Record➛Approver➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"62a7f9c2-9ce2-4653-acad-ae092b109432.email","label":"3➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"37a4537e-dfb3-464c-8298-580bc7491f2c.item","label":"2➛Approval Record","reference":"sysapproval_approver","reference_display":"Approval Record","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"384a79ab-2d12-44da-9f06-208f394a8b6d.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"384a79ab-2d12-44da-9f06-208f394a8b6d.Table","label":"1➛Approval Table","reference":"sysapproval_approver","reference_display":"Approval Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"384a79ab-2d12-44da-9f06-208f394a8b6d.Records","label":"1➛Approval Records","reference":"sysapproval_approver","reference_display":"Approval Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"04fb6207-4b9e-4e01-b7db-62ed6a8a5e9c.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"04fb6207-4b9e-4e01-b7db-62ed6a8a5e9c.Table","label":"1➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"04fb6207-4b9e-4e01-b7db-62ed6a8a5e9c.Records","label":"1➛Records","reference_display":"Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a0e643b0-e822-40d7-86ea-6e33420a980a.record","label":"4➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a0e643b0-e822-40d7-86ea-6e33420a980a.table_name","label":"4➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"d692f708-cf94-47fb-82ed-4c50c716045d.count","label":"4➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"uiTypeLabel":"Integer","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"integer","uiUniqueId":"edb3c082-a356-4943-a263-55232fc02390"}},{"name":"d692f708-cf94-47fb-82ed-4c50c716045d.status","label":"4➛Status","reference_display":"Status","type":"choice","base_type":"choice","attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"828e2127-df28-4eda-af48-ee4e876cca1e"}},{"name":"d692f708-cf94-47fb-82ed-4c50c716045d.message","label":"4➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"eae4ca7a-5ba6-465c-b7bd-6ba1cf184947"}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>test flow</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 15:41:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>54a3f1a72f03d010dc0ae93df699b6f1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>test flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_54a3f1a72f03d010dc0ae93df699b6f1</sys_update_name>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:22:45</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=54a3f1a72f03d010dc0ae93df699b6f1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=54a3f1a72f03d010dc0ae93df699b6f1"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=54a3f1a72f03d010dc0ae93df699b6f1^sys_idNOT IN1dc9caa72f43d010dc0ae93df699b681,99c9caa72f43d010dc0ae93df699b67c,d5c9caa72f43d010dc0ae93df699b6af"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">59c9caa72f43d010dc0ae93df699b680</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="test flow">54a3f1a72f03d010dc0ae93df699b6f1</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 17:18:38</sys_created_on>
+        <sys_id>1dc9caa72f43d010dc0ae93df699b681</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:22:44</sys_updated_on>
+        <ui_id>37a4537e-dfb3-464c-8298-580bc7491f2c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=1dc9caa72f43d010dc0ae93df699b681"/>
+    <sys_element_mapping action="delete_multiple" query="id=1dc9caa72f43d010dc0ae93df699b681"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>1dc9caa72f43d010dc0ae93df699b681</id>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 17:18:38</sys_created_on>
+        <sys_id>11c9caa72f43d010dc0ae93df699b6aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:18:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{384a79ab-2d12-44da-9f06-208f394a8b6d.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="test flow">54a3f1a72f03d010dc0ae93df699b6f1</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 17:18:38</sys_created_on>
+        <sys_id>99c9caa72f43d010dc0ae93df699b67c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:22:44</sys_updated_on>
+        <ui_id>384a79ab-2d12-44da-9f06-208f394a8b6d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=99c9caa72f43d010dc0ae93df699b67c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>99c9caa72f43d010dc0ae93df699b67c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 17:18:38</sys_created_on>
+        <sys_id>1dc9caa72f43d010dc0ae93df699b67f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:18:38</sys_updated_on>
+        <value>sysapproval_approver</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>99c9caa72f43d010dc0ae93df699b67c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 17:18:38</sys_created_on>
+        <sys_id>59c9caa72f43d010dc0ae93df699b67f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:18:38</sys_updated_on>
+        <value>state=requested^sys_created_on&lt;=javascript:gs.endOfLastWeek()</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="test flow">54a3f1a72f03d010dc0ae93df699b6f1</flow>
+        <order>3</order>
+        <parent_ui_id>37a4537e-dfb3-464c-8298-580bc7491f2c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 17:18:38</sys_created_on>
+        <sys_id>d5c9caa72f43d010dc0ae93df699b6af</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:22:44</sys_updated_on>
+        <ui_id>62a7f9c2-9ce2-4653-acad-ae092b109432</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d5c9caa72f43d010dc0ae93df699b6af"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d5c9caa72f43d010dc0ae93df699b6af</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 17:18:39</sys_created_on>
+        <sys_id>1dc9caa72f43d010dc0ae93df699b6b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:18:39</sys_updated_on>
+        <value>test</value>
+        <variable display_value="">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d5c9caa72f43d010dc0ae93df699b6af</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 17:18:39</sys_created_on>
+        <sys_id>59c9caa72f43d010dc0ae93df699b6b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:18:39</sys_updated_on>
+        <value>sysapproval_approver</value>
+        <variable display_value="">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d5c9caa72f43d010dc0ae93df699b6af</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 17:18:39</sys_created_on>
+        <sys_id>95c9caa72f43d010dc0ae93df699b6b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:18:39</sys_updated_on>
+        <value>&lt;p&gt;test&lt;/p&gt;</value>
+        <variable display_value="">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d5c9caa72f43d010dc0ae93df699b6af"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>d5c9caa72f43d010dc0ae93df699b6af</id>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 17:18:38</sys_created_on>
+        <sys_id>d9c9caa72f43d010dc0ae93df699b6b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:18:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>d5c9caa72f43d010dc0ae93df699b6af</id>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 17:18:39</sys_created_on>
+        <sys_id>15c9caa72f43d010dc0ae93df699b6b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:18:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>d5c9caa72f43d010dc0ae93df699b6af</id>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 17:18:38</sys_created_on>
+        <sys_id>19c9caa72f43d010dc0ae93df699b6b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:18:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{37a4537e-dfb3-464c-8298-580bc7491f2c.item.approver.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>d5c9caa72f43d010dc0ae93df699b6af</id>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 17:18:38</sys_created_on>
+        <sys_id>9dc9caa72f43d010dc0ae93df699b6b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:18:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{37a4537e-dfb3-464c-8298-580bc7491f2c.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d5c9caa72f43d010dc0ae93df699b6af</id>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 17:18:39</sys_created_on>
+        <sys_id>51c9caa72f43d010dc0ae93df699b6b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:18:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=54a3f1a72f03d010dc0ae93df699b6f1^sys_idNOT IN59c9caa72f43d010dc0ae93df699b675"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="test flow">54a3f1a72f03d010dc0ae93df699b6f1</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 17:18:38</sys_created_on>
+        <sys_id>59c9caa72f43d010dc0ae93df699b675</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:22:44</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=59c9caa72f43d010dc0ae93df699b675"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>59c9caa72f43d010dc0ae93df699b675</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 17:18:38</sys_created_on>
+        <sys_id>99c9caa72f43d010dc0ae93df699b676</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:18:38</sys_updated_on>
+        <value>1970-01-01 08:00:00</value>
+        <variable display_value="">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=54a3f1a72f03d010dc0ae93df699b6f1^sys_idNOT INd4a3b16b2f03d010dc0ae93df699b6ef"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>54a3f1a72f03d010dc0ae93df699b6f1</id>
+        <name>test flow</name>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 15:41:55</sys_created_on>
+        <sys_id>d4a3b16b2f03d010dc0ae93df699b6ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 15:41:55</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_action_instance action="delete_multiple" query="flow=54a3f1a72f03d010dc0ae93df699b6f1^sys_idNOT IN99c9caa72f43d010dc0ae93df699b67c,d5c9caa72f43d010dc0ae93df699b6af"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="test flow">54a3f1a72f03d010dc0ae93df699b6f1</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 17:18:38</sys_created_on>
+        <sys_id>99c9caa72f43d010dc0ae93df699b67c</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:22:44</sys_updated_on>
+        <ui_id>384a79ab-2d12-44da-9f06-208f394a8b6d</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=99c9caa72f43d010dc0ae93df699b67c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>99c9caa72f43d010dc0ae93df699b67c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 17:18:38</sys_created_on>
+        <sys_id>1dc9caa72f43d010dc0ae93df699b67f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:18:38</sys_updated_on>
+        <value>sysapproval_approver</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>99c9caa72f43d010dc0ae93df699b67c</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 17:18:38</sys_created_on>
+        <sys_id>59c9caa72f43d010dc0ae93df699b67f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:18:38</sys_updated_on>
+        <value>state=requested^sys_created_on&lt;=javascript:gs.endOfLastWeek()</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">c1806bf4a70323008299b39f087901cb</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="test flow">54a3f1a72f03d010dc0ae93df699b6f1</flow>
+        <order>3</order>
+        <parent_ui_id>37a4537e-dfb3-464c-8298-580bc7491f2c</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 17:18:38</sys_created_on>
+        <sys_id>d5c9caa72f43d010dc0ae93df699b6af</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:22:44</sys_updated_on>
+        <ui_id>62a7f9c2-9ce2-4653-acad-ae092b109432</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d5c9caa72f43d010dc0ae93df699b6af"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d5c9caa72f43d010dc0ae93df699b6af</document_key>
+        <order>6</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 17:18:39</sys_created_on>
+        <sys_id>1dc9caa72f43d010dc0ae93df699b6b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:18:39</sys_updated_on>
+        <value>test</value>
+        <variable display_value="">5d806bf4a70323008299b39f087901ec</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d5c9caa72f43d010dc0ae93df699b6af</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 17:18:39</sys_created_on>
+        <sys_id>59c9caa72f43d010dc0ae93df699b6b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:18:39</sys_updated_on>
+        <value>sysapproval_approver</value>
+        <variable display_value="">19806bf4a70323008299b39f087901d4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d5c9caa72f43d010dc0ae93df699b6af</document_key>
+        <order>7</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 17:18:39</sys_created_on>
+        <sys_id>95c9caa72f43d010dc0ae93df699b6b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:18:39</sys_updated_on>
+        <value>&lt;p&gt;test&lt;/p&gt;</value>
+        <variable display_value="">ad806bf4a70323008299b39f087901f2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d5c9caa72f43d010dc0ae93df699b6af"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>d5c9caa72f43d010dc0ae93df699b6af</id>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 17:18:38</sys_created_on>
+        <sys_id>d9c9caa72f43d010dc0ae93df699b6b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:18:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>d5c9caa72f43d010dc0ae93df699b6af</id>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 17:18:39</sys_created_on>
+        <sys_id>15c9caa72f43d010dc0ae93df699b6b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:18:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>d5c9caa72f43d010dc0ae93df699b6af</id>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 17:18:38</sys_created_on>
+        <sys_id>19c9caa72f43d010dc0ae93df699b6b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:18:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{37a4537e-dfb3-464c-8298-580bc7491f2c.item.approver.email}} </value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>d5c9caa72f43d010dc0ae93df699b6af</id>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 17:18:38</sys_created_on>
+        <sys_id>9dc9caa72f43d010dc0ae93df699b6b1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:18:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value>{{37a4537e-dfb3-464c-8298-580bc7491f2c.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>d5c9caa72f43d010dc0ae93df699b6af</id>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 17:18:39</sys_created_on>
+        <sys_id>51c9caa72f43d010dc0ae93df699b6b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:18:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_c1806bf4a70323008299b39f087901cb</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=54a3f1a72f03d010dc0ae93df699b6f1^sys_idNOT IN1dc9caa72f43d010dc0ae93df699b681"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">59c9caa72f43d010dc0ae93df699b680</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="test flow">54a3f1a72f03d010dc0ae93df699b6f1</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 17:18:38</sys_created_on>
+        <sys_id>1dc9caa72f43d010dc0ae93df699b681</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:22:44</sys_updated_on>
+        <ui_id>37a4537e-dfb3-464c-8298-580bc7491f2c</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=1dc9caa72f43d010dc0ae93df699b681"/>
+    <sys_element_mapping action="delete_multiple" query="id=1dc9caa72f43d010dc0ae93df699b681"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>1dc9caa72f43d010dc0ae93df699b681</id>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 17:18:38</sys_created_on>
+        <sys_id>11c9caa72f43d010dc0ae93df699b6aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 17:18:38</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{384a79ab-2d12-44da-9f06-208f394a8b6d.Records}}</value>
+    </sys_element_mapping>
+</record_update>
