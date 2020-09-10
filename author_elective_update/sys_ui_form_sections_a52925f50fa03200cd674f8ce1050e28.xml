@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections action="DELETE" form_id="a52925f50fa03200cd674f8ce1050e28" sys_domain="global" table="x_58872_needit_needit" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-26 20:42:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e92925f50fa03200cd674f8ce1050e2b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_58872_needit_needit" name="x_58872_needit_needit" sys_domain="global" view="Default view">a52925f50fa03200cd674f8ce1050e28</sys_ui_form>
+            <sys_ui_section caption="Log" display_value="Log" name="x_58872_needit_needit" sys_domain="global" view="Default view">252925f50fa03200cd674f8ce1050e27</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-26 20:42:50</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-26 20:50:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c0b61390fa03200cd674f8ce1050e09</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_58872_needit_needit" name="x_58872_needit_needit" sys_domain="global" view="Default view">a52925f50fa03200cd674f8ce1050e28</sys_ui_form>
+            <sys_ui_section caption="Statistics" display_value="Statistics" name="x_58872_needit_needit" sys_domain="global" view="Default view">040b61390fa03200cd674f8ce1050e07</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-26 20:50:56</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_58872_needit_needit</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-01-26 20:42:50</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a52925f50fa03200cd674f8ce1050e28</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_58872_needit_needit</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_ui_form_sections_a52925f50fa03200cd674f8ce1050e28</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-01-26 20:42:50</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>0f52873edbfac85052dd2f17d49619f8</instance_id>
+        <instance_name>dev100134</instance_name>
+        <name>sys_ui_form_sections_a52925f50fa03200cd674f8ce1050e28</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_form_sections form_id="a52925f50fa03200cd674f8ce1050e28" sys_domain="global" table="x_58872_needit_needit" version="3"><sys_ui_form_section action="INSERT_OR_UPDATE"><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2017-01-26 20:42:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e92925f50fa03200cd674f8ce1050e2b</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_58872_needit_needit" name="x_58872_needit_needit" sys_domain="global" view="Default view">a52925f50fa03200cd674f8ce1050e28</sys_ui_form><sys_ui_section caption="Log" display_value="Log" name="x_58872_needit_needit" sys_domain="global" view="Default view">252925f50fa03200cd674f8ce1050e27</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-01-26 20:42:50</sys_updated_on></sys_ui_form_section><sys_ui_form_section action="INSERT_OR_UPDATE"><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2017-01-26 20:50:56</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4c0b61390fa03200cd674f8ce1050e09</sys_id><sys_mod_count>0</sys_mod_count><sys_overrides/><sys_ui_form display_value="x_58872_needit_needit" name="x_58872_needit_needit" sys_domain="global" view="Default view">a52925f50fa03200cd674f8ce1050e28</sys_ui_form><sys_ui_section caption="Statistics" display_value="Statistics" name="x_58872_needit_needit" sys_domain="global" view="Default view">040b61390fa03200cd674f8ce1050e07</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-01-26 20:50:56</sys_updated_on></sys_ui_form_section><sys_ui_form action="INSERT_OR_UPDATE"><name>x_58872_needit_needit</name><roles/><sys_class_name>sys_ui_form</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2017-01-26 20:42:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a52925f50fa03200cd674f8ce1050e28</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_58872_needit_needit</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ui_form_sections_a52925f50fa03200cd674f8ce1050e28</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2017-01-26 20:42:50</sys_updated_on><sys_user/><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_form></sys_ui_form_sections></record_update>]]></payload>
+        <payload_hash>946742651</payload_hash>
+        <record_name>NeedIt</record_name>
+        <reverted_from/>
+        <source>b4b4848f2fc75010dc0ae93df699b67c</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 02:50:39</sys_created_on>
+        <sys_id>7a130fd72f4b9010dc0ae93df699b664</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17475ec13690000001</sys_recorded_at>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 02:50:39</sys_updated_on>
+        <type>Form Sections</type>
+        <update_guid>f2130fd7f44b9010fdc24da1c91ee164</update_guid>
+        <update_guid_history>f2130fd7f44b9010fdc24da1c91ee164:946742651,f2d4cc8f77c75010488ffe3985a8cafd:0,25aa0b7abc47501032c93744814585ad:1458778538,61aa0b7ae3475010f77ca80038a00295:-823286881,ce59fa7e610750104307f5487ce1a688:984132822</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+        <sys_created_on>2020-09-10 03:04:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_form">sys_ui_form</sys_db_object>
+        <sys_id>50068f15882f40f8bd8e1c9f1d0cd240</sys_id>
+        <sys_metadata>a52925f50fa03200cd674f8ce1050e28</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_58872_needit_needit</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="">205e24f22fcf1010dc0ae93df699b6fd</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ui_form_sections_a52925f50fa03200cd674f8ce1050e28</sys_update_name>
+        <sys_update_version display_value="sys_ui_form_sections_a52925f50fa03200cd674f8ce1050e28">7a130fd72f4b9010dc0ae93df699b664</sys_update_version>
+        <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+        <sys_updated_on>2020-09-10 03:04:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

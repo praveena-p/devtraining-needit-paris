@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_approval" table="x_58872_needit_occassions" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_approval</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>approve</label>
+            <language>en</language>
+            <name>x_58872_needit_occassions</name>
+            <sequence>0</sequence>
+            <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+            <sys_created_on>2020-09-10 03:51:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6af0d3932f8b9010dc0ae93df699b642</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+            <sys_updated_on>2020-09-10 03:51:16</sys_updated_on>
+            <value>approve</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_approval</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>reject</label>
+            <language>en</language>
+            <name>x_58872_needit_occassions</name>
+            <sequence>1</sequence>
+            <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+            <sys_created_on>2020-09-10 03:51:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>aaf0d3932f8b9010dc0ae93df699b643</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+            <sys_updated_on>2020-09-10 03:51:16</sys_updated_on>
+            <value>reject</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_approval</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Choice 3</label>
+            <language>en</language>
+            <name>x_58872_needit_occassions</name>
+            <sequence>2</sequence>
+            <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+            <sys_created_on>2020-09-10 03:51:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2af0d3932f8b9010dc0ae93df699b644</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+            <sys_updated_on>2020-09-10 03:51:16</sys_updated_on>
+            <value>Choice 3</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_approval</element>
+            <name>x_58872_needit_occassions</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+            <sys_created_on>2020-09-10 03:51:16</sys_created_on>
+            <sys_id>a2f0d3932f8b9010dc0ae93df699b643</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_approval</sys_name>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_choice_x_58872_needit_occassions_u_approval</sys_update_name>
+            <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+            <sys_updated_on>2020-09-10 03:51:16</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

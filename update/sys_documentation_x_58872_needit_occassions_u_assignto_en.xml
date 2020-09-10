@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_assignto" label="Assign to" language="en" table="x_58872_needit_occassions">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_assignto</element>
+            <help/>
+            <hint/>
+            <label>Assign to</label>
+            <language>en</language>
+            <name>x_58872_needit_occassions</name>
+            <plural>Assign to</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>praveenacharming9@gmail.com</sys_created_by>
+            <sys_created_on>2020-09-10 03:14:10</sys_created_on>
+            <sys_id>4f78c31f2f4b9010dc0ae93df699b6eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Assign to</sys_name>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_documentation_x_58872_needit_occassions_u_assignto_en</sys_update_name>
+            <sys_updated_by>praveenacharming9@gmail.com</sys_updated_by>
+            <sys_updated_on>2020-09-10 03:14:10</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

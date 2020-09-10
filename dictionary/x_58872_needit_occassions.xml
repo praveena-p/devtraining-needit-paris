@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Occassions" max_length="40" name="x_58872_needit_occassions" type="collection">
+    <element label="Occassions" max_length="40" name="x_58872_needit_occassions" sizeclass="2" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Approval" max_length="40" name="u_approval" type="string">
+            <choice>
+                <element inactive_on_update="false" label="approve" sequence="0" value="approve"/>
+                <element inactive_on_update="false" label="reject" sequence="1" value="reject"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Assign to" max_length="32" name="u_assignto" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Occassion Date" mandatory="true" max_length="40" name="u_calendar_date_time_1" type="calendar_date_time"/>
         <element attributes="encode_utf8=false" label="Employee" mandatory="true" max_length="32" name="u_reference_5" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Speacial Occasion" mandatory="true" max_length="40" name="u_special_occassion" type="string">
@@ -11,8 +19,20 @@
                 <element inactive_on_update="false" label="work anniversary" sequence="2" value="work anniversary"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" mandatory="true" max_length="40" name="u_state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="0" value="open"/>
+                <element inactive_on_update="false" label="Pending" sequence="1" value="pending"/>
+                <element inactive_on_update="false" label="waiting for approval" sequence="2" value="waiting for approval"/>
+                <element inactive_on_update="false" label="closed" sequence="3" value="closed"/>
+                <element inactive_on_update="false" label="work in progress" sequence="4" value="work in progress"/>
+            </choice>
+        </element>
         <index name="index">
             <element name="u_reference_5"/>
+        </index>
+        <index name="index2">
+            <element name="u_assignto"/>
         </index>
     </element>
 </database>
